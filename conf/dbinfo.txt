@@ -1,0 +1,6 @@
+db n° Dbms@91di/r@d@3m?04@/2mo2m3r
+hote db5011817658.hosting-data.io 
+port 
+3306
+user name dbu2898058 
+db  dbs9954164
