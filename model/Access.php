@@ -128,7 +128,7 @@ class Access{
     $mail->Port = 587;
     $mail->SMTPAuth = true;
     $mail->Username = 'info@kiracom.fr';
-    $mail->Password = 'Hocineparis@75';
+    $mail->Password = '';
     $mail->setFrom($email, $prenom);
     $mail->addAddress('info@kiracom.fr', 'MYBODY');
     if ($mail->addReplyTo($email, $prenom)) {
