@@ -124,13 +124,13 @@ class Access{
    public function contact($email, $message, $prenom){
     $mail = new PHPMailer;
     $mail->isSMTP();
-    $mail->Host = 'smtp.ionos.fr';
+    $mail->Host = '';
     $mail->Port = 587;
     $mail->SMTPAuth = true;
-    $mail->Username = 'info@kiracom.fr';
+    $mail->Username = '';
     $mail->Password = '';
     $mail->setFrom($email, $prenom);
-    $mail->addAddress('info@kiracom.fr', 'MYBODY');
+    $mail->addAddress('', 'MYBODY');
     if ($mail->addReplyTo($email, $prenom)) {
     $mail->Subject = 'CONTACT MYBODY';
     $mail->isHTML(false);
